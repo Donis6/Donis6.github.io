@@ -67,6 +67,7 @@ h1{
     background-position-y:bottom;
     background-position: fixed;
 }
-p,h2{
-    color: black;
+h2{
+    color: red;
+    margin-top: 60%;
 }
