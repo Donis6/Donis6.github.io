@@ -1,0 +1,72 @@
+html{
+    background-color:none;
+}
+
+body{
+    background-image: url(pics/co-axial-scape\,emt.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div {/* the lines menu*/
+    width: 35px;
+    height: 3px;
+    background-color:black;
+    margin: 5px 0;
+    
+}
+ul{ /*this control the bar*/
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+    background-color:transparent;
+    position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/
+    position: sticky;
+    width: 100%;
+    overflow: auto;/* Enable to scroll if the bar has too much content*/
+    top: 0;
+}
+
+li{ /*this control the space of the word inside the bar*/
+    float: right;
+}
+
+a:link{
+    color:black;
+    background: transparent;
+    text-decoration:none;
+    
+}
+
+a:active{
+    color:green;
+    background: transparent;
+    text-decoration: underline;
+}
+
+a:hover{
+    color:red;
+}
+
+a{ /*all hiper links*/
+    font-size:large;
+    color:Black; 
+    white-space: 30px;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1{
+    color:black;
+    font-size: 100px;
+    font: fixed;
+    background-position-y:bottom;
+    background-position: fixed;
+}
+p,h2{
+    color: black;
+}
