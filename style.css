@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-div {/* the lines menu*/
+.menu {/* the lines menu*/
     width: 35px;
     height: 3px;
     background-color:black;
@@ -68,6 +68,10 @@ h1{
     background-position: fixed;
 }
 h2{
-    color: red;
+    
     margin-top: 60%;
+}
+.toolPics {
+    visibility: hidden;
+    display: inline;
 }
