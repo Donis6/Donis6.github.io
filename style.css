@@ -6,6 +6,7 @@ body{
     background-image: url(pics/co-axial-scape\,emt.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    top: 0%;
 }
 .menu {/* the lines menu*/
     width: 35px;
@@ -72,6 +73,6 @@ h2{
     margin-top: 60%;
 }
 .toolPics {
-    visibility: hidden;
+    visibility:hidden;
     display: inline;
 }
