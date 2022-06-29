@@ -19,15 +19,15 @@ body{
 }
 ul{ /*this control the bar*/
     list-style-type:none;
+    position:fixed;
+    width: 99%;
+    text-align: center;
     margin: 0%;
     top: 0px;
     padding: 0%;
     background-color:black;
-    /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/
-    position:fixed;
-    width: 100%;
-    text-align: center;
-    
+    border-spacing: 0ch;
+    /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/ 
 }
 
 li{ /*this control the space of the word inside the bar*/
@@ -36,7 +36,8 @@ li{ /*this control the space of the word inside the bar*/
     display:inline;
     width: 100%;
     color: white;
-    padding: 0%;
+    padding: 0px;
+    border-spacing: 0px;
 }
 
 a:link{
@@ -57,8 +58,7 @@ a:hover{
 
 a{ /*all hiper links*/
     font-size:medium;
-    color:white; 
-    white-space: 50px;
+    color:white;
 }
 
 li a{
@@ -67,18 +67,24 @@ li a{
     padding: 25px 15px;
 }
 
-h1{
+.tw h1 a{
+    margin: 0%;
     color:white;
-    font-size: 100px;
-    background-position-y:bottom;
+    padding: 0%;
+    font-size: xx-large;
+}
+h2{
+    color:white;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium';
+}
+.pictures {
+    display: inline;
+    top: 70px;
 }
 .toolPics {
-    visibility:hidden;
+    top: 70px;
+    visibility:none;
     display: inline;
-}
-.Rolexpic {
-    margin-top: 68%;
-}
-.sf{
-    align: center;
 }
