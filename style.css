@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url(pics/runningpic.png);
+    background-image: url(pics/omega_coaxial.png);
     background-repeat: no-repeat;
     background-size: 100%;
     top: 0;
@@ -20,12 +20,13 @@ body{
 ul{ /*this control the bar*/
     list-style-type:none;
     position:fixed;
-    width: 99%;
+    width: 100%;
     text-align: center;
     margin: 0%;
     top: 0px;
+    margin-left: -0.6%;
     padding: 0%;
-    background-color:transparent;
+    background-color:black;
     border-spacing: 0ch;
     /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/ 
 }
@@ -53,7 +54,7 @@ a:active{
 }
 
 a:hover{
-    color:red;
+    color:lightgrey;
 }
 
 a{ /*all hiper links*/
@@ -75,29 +76,43 @@ li a{
     font-size: xx-large;
 }
 h2{
+    display: inline-block;
+    text-align: center;
+    background-color: none;
     margin-top: 70%;
     padding: 0%;
-    line-height: 1px;
+    line-height: 0%;
     color:black;
 }
 .logo{
     font-family: 'Franklin Gothic Medium';
 }
-
-.Breguet{
-    margin-top: 70%;
-    margin-left: 20%;
-}
 .Blackpain {
     margin-top: -13.3%;
 }
+
+.Breguet{
+    margin-top: 0%;
+    margin-left: 20%;
+}
+
 .Glashute {
     margin-top: -13.3%;
     margin-left: 40%;
 }
+.longines {
+    margin-top: -13.3%;
+    margin-left: 60%;
+}
+.omega {
+    margin-top: -13.3%;
+    margin-left: 80%;
+}
 
 .toolPics {
-    float: inline-start;
+    display: inline-block;
+    margin-top: -80%;
+    line-height: 0%;
     /*white-space: nowrap;*/
     visibility:;
     display: inline;
