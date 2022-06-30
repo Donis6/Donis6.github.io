@@ -25,7 +25,7 @@ ul{ /*this control the bar*/
     margin: 0%;
     top: 0px;
     padding: 0%;
-    background-color:black;
+    background-color:transparent;
     border-spacing: 0ch;
     /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/ 
 }
@@ -67,24 +67,38 @@ li a{
     padding: 25px 15px;
 }
 
-.tw h1 a{
-    margin: 0%;
+.tw h1 a{ /*controls the name of the store (title)*/
     color:white;
+    line-height: 1px;
+    margin: 0%;
     padding: 0%;
     font-size: xx-large;
 }
 h2{
-    color:white;
+    margin-top: 70%;
+    padding: 0%;
+    line-height: 1px;
+    color:black;
 }
 .logo{
     font-family: 'Franklin Gothic Medium';
 }
-.pictures {
-    display: inline;
-    top: 70px;
+
+.Breguet{
+    margin-top: 70%;
+    margin-left: 20%;
 }
+.Blackpain {
+    margin-top: -13.3%;
+}
+.Glashute {
+    margin-top: -13.3%;
+    margin-left: 40%;
+}
+
 .toolPics {
-    top: 70px;
-    visibility:none;
+    float: inline-start;
+    /*white-space: nowrap;*/
+    visibility:;
     display: inline;
 }
