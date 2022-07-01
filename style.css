@@ -96,25 +96,26 @@ h2{
     font-family: 'Franklin Gothic Medium';
 }
 .Blackpain {
+    margin-left: 3%;
     margin-top: -13.3%;
 }
 
 .Breguet{
     margin-top: 0%;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 
 .Glashute {
     margin-top: -13.3%;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 .longines {
     margin-top: -13.3%;
-    margin-left: 60%;
+    margin-left: 62%;
 }
 .omega {
     margin-top: -13.3%;
-    margin-left: 80%;
+    margin-left: 82%;
 }
 /*
 /* Whidth
@@ -140,4 +141,9 @@ h2{
     /*white-space: nowrap;*/
     visibility:;
     display: inline;
+}
+.address{
+    margin-top: 20%;
+    margin-left: 30%;
+    border-image-outset: 2%;
 }
