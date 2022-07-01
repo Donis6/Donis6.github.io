@@ -26,9 +26,15 @@ ul{ /*this control the bar*/
     top: 0px;
     margin-left: -0.6%;
     padding: 0%;
-    background-color:black;
+    background-color:transparent;
     border-spacing: 0ch;
     /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/ 
+}
+.quote {
+    margin-top: 0%;
+    margin-right: 3%;
+    text-align: right;
+    margin-top: -1.1%;
 }
 
 li{ /*this control the space of the word inside the bar*/
@@ -59,6 +65,7 @@ a:hover{
 
 a{ /*all hiper links*/
     font-size:medium;
+    text-shadow: 2px 4px 4px black;
     color:white;
 }
 
@@ -69,6 +76,7 @@ li a{
 }
 
 .tw h1 a{ /*controls the name of the store (title)*/
+    margin-top: 0%;
     color:white;
     line-height: 1px;
     margin: 0%;
