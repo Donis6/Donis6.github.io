@@ -10,18 +10,19 @@ body, html {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .pic-1 {
     background-image: url(pics/IMG_5095.JPG);
     min-height: 100%;
 }
 .pic-2 {
-    background-image: url(pics/IMG_5096.JPG);
-    min-height: 400px;
+    background-image: url(pics/nigth.png);
+    min-height: 500px;
 }
 .pic-3 {
     background-image: url(pics/IMG_5108.JPG);
-    min-height: 400px;
+    min-height: 750px;
 }
 .caption {
     position: absolute;
@@ -37,5 +38,17 @@ body, html {
     padding: 10px;
     font-size: 25px;
     letter-spacing: 10px;
+}
+.title1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: black;
+}
+.title2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
 }
 
