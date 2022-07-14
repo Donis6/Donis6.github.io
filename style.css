@@ -1,6 +1,6 @@
 html{
     background-color: none;
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 body{
     background-image: url(pics/omega_coaxial.png);
