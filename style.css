@@ -1,133 +1,41 @@
-html{
-    background-color: none;
-    /*scroll-behavior: smooth;*/
+body, html {
+    height: 100%;
+    margin: 0%;
+    color: black;
 }
-body{
-    background-image: url(pics/omega_coaxial.png);
+
+.pic-1, .pic-2, .pic-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
-    top: 0;
+    background-size: cover;
 }
-.menu {/* the lines burger menu*/
-    position: relative;
-    top: 0px;
-    width: 40px;
-    height: 4px;
-    background-color:white;
-    margin: 6px 18;
-    padding: 0%;
+.pic-1 {
+    background-image: url(pics/IMG_5095.JPG);
+    min-height: 100%;
 }
-.hide { 
-    display: none; /*this goes iside the burger menu*/
+.pic-2 {
+    background-image: url(pics/IMG_5096.JPG);
+    min-height: 400px;
 }
-.myDIV:hover + .hide {
-    display: block;
-    color: red;
+.pic-3 {
+    background-image: url(pics/IMG_5108.JPG);
+    min-height: 400px;
 }
-ul{ /*this control the bar*/
-    list-style-type:none;
-    position:fixed;
+.caption {
+    position: absolute;
+    left: 0%;
+    top: 50%;
     width: 100%;
     text-align: center;
-    margin: 0%;
-    top: 0px;
-    margin-left: -0.6%;
-    padding: 0%;
-    background-color:black;
-    border-spacing: 0ch;
-    /*position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/ 
+    color: black;
 }
-.quote {
-    margin-top: 0%;
-    margin-right: 3%;
-    text-align: right;
-    margin-top: -1.1%;
-}
-li{ /*this control the space of the word inside the bar*/
-    position: relative;
-    text-align: center;
-    display:inline;
-    width: 100%;
+.caption span.border {
+    background-color: black;
     color: white;
-    padding: 0px;
-    border-spacing: 0px;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
-a:link{
-    color:white;
-    background: transparent;
-    text-decoration:none;
-}
-a:active{
-    color:green;
-    background: transparent;
-    text-decoration: underline;
-}
-a:hover{
-    color:lightgrey;
-}
-a{ /*all hiper links*/
-    font-size:medium;
-    text-shadow: 2px 4px 4px black;
-    color:white;
-}
-li a{
-    display: inline;
-    text-align: right;
-    padding: 25px 15px;
-}
-.tw h1 a{ /*controls the name of the store (title)*/
-    margin-top: -5%;
-    color:white;
-    line-height: 1px;
-    margin: 0%;
-    padding: 0%;
-    font-size: xx-large;
-}
-h2{
-    display: inline-block;
-    text-align: center;
-    background-color: none;
-    margin-top: 70%;
-    padding: 0%;
-    line-height: 0%;
-    color:black;
-}
-.logo{
-    font-family: 'Franklin Gothic Medium';
-}
-.Blackpain {
-    margin-left: 3%;
-    margin-top: -13.3%;
-}
-.Breguet{
-    margin-top: 0%;
-    margin-left: 22%;
-}
-.Glashute {
-    margin-top: -13.3%;
-    margin-left: 42%;
-}
-.longines {
-    margin-top: -13.3%;
-    margin-left: 62%;
-}
-.omega {
-    margin-top: -13.3%;
-    margin-left: 82%;
-}
-.toolPics {
-    display: inline-block;
-    margin-top: -80%;
-    line-height: 0%;
-    /*white-space: nowrap;*/
-    visibility:;
-    display: inline;
-}
-.address{
-    margin-top: 20%;
-    margin-left: 30%;
-    border-image-outset: 2%;
-}
-.slidecontainer {
-    width: 100%; /*width of the total size*/
-}
+
