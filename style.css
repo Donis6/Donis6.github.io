@@ -1,5 +1,6 @@
 html{
-    background-color:none;
+    background-color: none;
+    scroll-behavior: smooth;
 }
 body{
     background-image: url(pics/omega_coaxial.png);
@@ -7,7 +8,7 @@ body{
     background-size: 100%;
     top: 0;
 }
-.menu {/* the lines menu*/
+.menu {/* the lines burger menu*/
     position: relative;
     top: 0px;
     width: 40px;
@@ -15,7 +16,13 @@ body{
     background-color:white;
     margin: 6px 18;
     padding: 0%;
-    
+}
+.hide { 
+    display: none; /*this goes iside the burger menu*/
+}
+.myDIV:hover + .hide {
+    display: block;
+    color: red;
 }
 ul{ /*this control the bar*/
     list-style-type:none;
@@ -120,4 +127,7 @@ h2{
     margin-top: 20%;
     margin-left: 30%;
     border-image-outset: 2%;
+}
+.slidecontainer {
+    width: 100%; /*width of the total size*/
 }
