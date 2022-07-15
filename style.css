@@ -4,6 +4,12 @@ body, html {
     color: black;
     background-color: none;
 }
+.ul {/*bar menu control*/
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+}
 
 .pic-1, .pic-2, .pic-3 {
     position: relative;
@@ -66,6 +72,7 @@ body, html {
 .longines {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 33%;
     top: 250%;
     margin: 0%;
@@ -75,6 +82,7 @@ body, html {
 .mido {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 22%;
     top: 250%;
     margin: 0%;
@@ -84,6 +92,7 @@ body, html {
 .hamilton {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 11%;
     top: 250%;
     margin: 0%;
@@ -92,6 +101,7 @@ body, html {
 }.tissot {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 58.4%;
     top: 250%;
     margin: 0%;
@@ -101,6 +111,7 @@ body, html {
 .rado {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 69.5%;
     top: 250%;
     margin: 0%;
@@ -110,9 +121,15 @@ body, html {
 .certina {
     position: absolute;
     border-style: outset;
+    border-radius: 10%;
     left: 80.5%;
     top: 250%;
     margin: 0%;
     padding: 0%;
     text-align: center;
 }
+@media only screen and (max-device-width: 1024px) {
+    .pic-1, .pic-2, .pic-3 {
+      background-attachment: scroll;
+    }
+  }
