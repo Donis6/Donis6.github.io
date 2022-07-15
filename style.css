@@ -9,6 +9,13 @@ body, html {
     margin: 0%;
     padding: 0%;
     position:absolute;
+    background-color: black;
+    text-align: center;
+}
+.li ul { /*control all the links inside the bar menu*/
+    color: black;
+    text-size-adjust: large;
+    list-style: none;
 }
 
 .pic-1, .pic-2, .pic-3 {
@@ -76,7 +83,7 @@ body, html {
     left: 33%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }
 .mido {
@@ -86,7 +93,7 @@ body, html {
     left: 22%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }
 .hamilton {
@@ -96,7 +103,7 @@ body, html {
     left: 11%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }.tissot {
     position: absolute;
@@ -105,7 +112,7 @@ body, html {
     left: 58.4%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }
 .rado {
@@ -115,7 +122,7 @@ body, html {
     left: 69.5%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }
 .certina {
@@ -125,7 +132,7 @@ body, html {
     left: 80.5%;
     top: 250%;
     margin: 0%;
-    padding: 0%;
+    padding: 5px;
     text-align: center;
 }
 @media only screen and (max-device-width: 1024px) {
