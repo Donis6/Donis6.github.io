@@ -68,22 +68,19 @@ body, html {
 .omega {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
     left: 43.6%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
-    background-color: white;
+    padding: 0px;
     text-align: center;
 }
 .longines {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
-    left: 33%;
-    top: 250%;
+    left: 31%;
+    top: 255%;
     margin: 0%;
-    padding: 5px;
+    padding: 0%;
     text-align: center;
 }
 .mido {
