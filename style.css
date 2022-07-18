@@ -4,18 +4,32 @@ body, html {
     color: black;
     background-color: transparent;
 }
-.ul {/*bar menu control*/
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    position:absolute;
-    color: black;
-    text-align: center;
+.burger {
+    margin-top: 0%;
+    left: 0%;
+    padding: 1px;
+    margin: 1px;
+    background-color: white;
+    color: white;
 }
-.li { /*control all the links inside the bar menu*/
-    color: black;
-    text-size-adjust: large;
+ul {/*bar menu control*/
     list-style: none;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    background-color: black;
+    font-size: large;
+
+}
+
+li, a { /*control all the links inside the bar menu*/
+    color: white;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: 0px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
 }
 
 .pic-1, .pic-2, .pic-3 {
@@ -77,8 +91,8 @@ body, html {
 .longines {
     position: absolute;
     border-style: outset;
-    left: 31%;
-    top: 255%;
+    left: 32.5%;
+    top: 250%;
     margin: 0%;
     padding: 0%;
     text-align: center;
@@ -86,50 +100,45 @@ body, html {
 .mido {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
-    left: 22%;
+    left: 21.4%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
 .hamilton {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
-    left: 11%;
+    left: 10.3%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }.tissot {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
     left: 58.4%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
 .rado {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
     left: 69.5%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
 .certina {
     position: absolute;
     border-style: outset;
-    border-radius: 10%;
     left: 80.5%;
     top: 250%;
     margin: 0%;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
 @media only screen and (max-device-width: 1024px) {
