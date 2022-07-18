@@ -2,17 +2,17 @@ body, html {
     height: 100%;
     margin: 0%;
     color: black;
-    background-color: none;
+    background-color: transparent;
 }
 .ul {/*bar menu control*/
     list-style: none;
     margin: 0%;
     padding: 0%;
     position:absolute;
-    background-color: black;
+    color: black;
     text-align: center;
 }
-.li ul { /*control all the links inside the bar menu*/
+.li { /*control all the links inside the bar menu*/
     color: black;
     text-size-adjust: large;
     list-style: none;
