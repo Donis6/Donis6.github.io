@@ -142,7 +142,7 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
     }
-    .omega .longines .mido .hamilton .tissot .rado .certina {
-        display: none;
+    .omega, .longines, .mido, .hamilton, .tissot, .rado, .certina {
+       display: none; 
     }
   }
