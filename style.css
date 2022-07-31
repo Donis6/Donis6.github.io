@@ -11,27 +11,22 @@ ul {/*bar menu control*/
     background-color: black;
     list-style: none;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     
 
 }
-.burger{  
-    background-color: white;
-    width: 32px;
-    height: 3px;
-    margin: 5px 0px;
-    padding: 0px;
-}
 
-li, a.bmune{ /*control all the links inside the bar menu*/
+
+li, a, .bmune{ /*control all the links inside the bar menu*/
     color: white;
     display: inline-block;
     letter-spacing: 2px;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     text-transform: uppercase;
     font: 20px "Lato";
-}
+    text-decoration: none;
+} 
 
 .pic-1, .pic-2, .pic-3 {
     position: relative;
@@ -115,7 +110,8 @@ li, a.bmune{ /*control all the links inside the bar menu*/
     margin: 0%;
     padding: 0px;
     text-align: center;
-}.tissot {
+}
+.tissot {
     position: absolute;
     border-style: outset;
     left: 58.4%;
@@ -142,7 +138,7 @@ li, a.bmune{ /*control all the links inside the bar menu*/
     padding: 0px;
     text-align: center;
 }
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 500px) {
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
     }
