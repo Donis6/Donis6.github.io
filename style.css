@@ -138,8 +138,11 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     padding: 0px;
     text-align: center;
 }
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 200px) {
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
+    }
+    .omega .longines .mido .hamilton .tissot .rado .certina {
+        display: none;
     }
   }
