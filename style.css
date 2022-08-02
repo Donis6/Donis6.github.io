@@ -30,7 +30,7 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
 
 .pic-1, .pic-2, .pic-3 {
     position: relative;
-    opacity: 0.70;
+    opacity: 0.80;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,9 +40,24 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     background-image: url(pics/IMG_5095.JPG);
     min-height: 100%;
 }
+
+.paragraph {
+    text-align: center;
+
+}
 .pic-2 {
     background-image: url(pics/IMG_5108.JPG);
     min-height: 500px;
+}
+.wostep {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.owme1120 {
+    position: absolute;
+    top: 100px;
+    left: 850px;
 }
 .pic-3 {
     background-image: url(pics/omega_coaxial.png);
@@ -63,6 +78,7 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     font-size: 25px;
     letter-spacing: 10px;
 }
+
 .title1 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -138,7 +154,15 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     padding: 0px;
     text-align: center;
 }
-@media only screen and (max-device-width: 200px) {
+
+.map {
+    position: absolute;
+    left: 475px;
+    top: 100px;
+}
+
+
+@media only screen and (max-device-width: 700px) {
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
     }
