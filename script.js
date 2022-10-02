@@ -1,1 +1,0 @@
-alert("This Website only use is to provide owners resume please do not see if you are not the person who this email is supostu send to");

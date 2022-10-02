@@ -16,6 +16,14 @@ ul {/*bar menu control*/
 
 }
 
+.burguermenu {
+    color: white;
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    
+}
+
 
 li, a, .bmune{ /*control all the links inside the bar menu*/
     color: white;
@@ -51,15 +59,22 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
 }
 .wostep {
     position: absolute;
-    top: 150px;
+    top: 80px;
     left: 200px;
     padding: 3px;
     background-color: black;
 }
 .owme1120 {
     position: absolute;
-    top: 150px;
+    top: 80px;
     left: 850px;
+    padding: 3px;
+    background-color: black;
+}
+.nicolasghayek {
+    position: absolute;
+    top: 250px;
+    left: 525px;
     padding: 3px;
     background-color: black;
 }
@@ -166,11 +181,14 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
 }
 
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 390px) {
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
     }
     .omega, .longines, .mido, .hamilton, .tissot, .rado, .certina {
        display: none; 
+    }
+    .wostep, .nicolasghayek, .owme1120{
+        display:none;
     }
   }
