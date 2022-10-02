@@ -191,4 +191,7 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     .wostep, .nicolasghayek, .owme1120{
         display:none;
     }
+    .map {
+        display:none;
+    }
   }
