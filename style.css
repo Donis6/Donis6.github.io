@@ -6,30 +6,28 @@ body, html {
 }
 
 ul {/*bar menu control*/
-    color: white;
+    
     text-align: center;
-    background-color: black;
+    background-color: transparent;
     list-style: none;
     margin: 0px;
     padding: 0px;
-    
-
+    margin-top: 0%;
 }
 
-.burguermenu {
-    color: white;
+.bar1, .bar2, .bar3  {
     width: 35px;
     height: 5px;
-    margin: 6px 0;
+    margin: 3px;
     
+    background-color: black;
 }
 
-
-li, a, .bmune{ /*control all the links inside the bar menu*/
-    color: white;
+li, a, .bmenu{ /*control all the links inside the bar menu*/
+    color: black;
     display: inline-block;
     letter-spacing: 2px;
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     text-transform: uppercase;
     font: 20px "Lato";
@@ -63,6 +61,8 @@ li, a, .bmune{ /*control all the links inside the bar menu*/
     left: 200px;
     padding: 3px;
     background-color: black;
+    flex: auto;
+
 }
 .owme1120 {
     position: absolute;
