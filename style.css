@@ -1,5 +1,5 @@
 body, html {
-margin: 0%;    
+    margin: 0%;    
 }
 
 ul {/*bar menu control*/
@@ -9,7 +9,7 @@ ul {/*bar menu control*/
     margin: 0px;
     
 }
-.buerguermenu {
+.buerguermenu { /* burguer menu controllers*/
     background-color: black;
     display: inline-block;
     margin-left: -1500px;
@@ -179,17 +179,17 @@ a, .bmenu{ /*control all the links inside the bar menu*/
 }
 
 
-@media only screen and (max-device-width: 390px) {
+@media only screen and (max-device-width: 390px 700) {
     .pic-1, .pic-2, .pic-3 {
       background-attachment: scroll;
     }
     .omega, .longines, .mido, .hamilton, .tissot, .rado, .certina {
-       display: none; 
+        height: fit-content;  
     }
     .wostep, .nicolasghayek, .owme1120{
-        display:none;
+        height: min-content;
     }
     .map {
-        display:none;
+        display:hidden;
     }
   }
