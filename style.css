@@ -12,7 +12,7 @@ ul {/*bar menu control*/
 .buerguermenu { /* burguer menu controllers*/
     background-color: black;
     display: inline-block;
-    margin-left: -1500px;
+    margin: 0px;
 }
 /* burguer menu controllers*/
 .bar1, .bar2, .bar3 {
