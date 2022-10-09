@@ -9,18 +9,22 @@ ul {/*bar menu control*/
     margin: 0px;
     
 }
-
+.buerguermenu {
+    background-color: black;
+    display: inline-block;
+    margin-left: -1400px;
+}
 /* burguer menu controllers*/
-.bar1, .bar2, .bar3, .burguermenu {
+.bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    margin: 5px;
+    margin: 6px 5;
     background-color: white;
 }
 
-li, a, .bmenu{ /*control all the links inside the bar menu*/
+a, .bmenu{ /*control all the links inside the bar menu*/
     color: white;
-    display: inline-block;
+    display: inline;
     letter-spacing: 2px;
     text-transform: uppercase;
     font: 20px "Lato";
