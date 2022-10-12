@@ -18,12 +18,12 @@ ul {/*bar menu control*/
     width: 25px;
     height: 3px;
     margin: 3px 0;
-    background-color: red;
+    background-color:;
 }
 
 a, .bmenu{ /*control all the links inside the bar menu*/
     color: white;
-    display: inline;
+    display: inline-block;
     letter-spacing: 2px;
     text-transform: uppercase;
     font: 20px "Lato";
